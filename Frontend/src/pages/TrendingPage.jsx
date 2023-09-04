@@ -10,7 +10,7 @@ import instance from "@/lib/axiosInstance";
 
 const TrendingPage = () => {
   const fetchTrendingAnime = async ({ pageParam = 1 }) => {
-    const perPage = 30;
+    const perPage = 10;
     const response = await instance.get(
       `/popular?page=${pageParam}&perPage=${perPage}`
     );

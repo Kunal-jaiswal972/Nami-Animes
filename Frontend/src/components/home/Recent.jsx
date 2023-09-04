@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Rings } from "react-loader-spinner";
 import { useQuery } from "@tanstack/react-query";
 
-import SlickCarousel from "@/components/slickCarousel/slickCarousel";
+import SlickCarousel from "@/components/slickCarousel/SlickCarousel";
 import { Card } from "@/components/ui/card";
 
 import { hexToRgba } from "@/lib/hexToRgba";
