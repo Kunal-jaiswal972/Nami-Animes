@@ -20,8 +20,8 @@ const Sidebar = () => {
     },
     {
       icon: TrendingUp,
-      href: "/latest",
-      label: "Latest",
+      href: "/trending",
+      label: "Trending",
     },
     {
       icon: Clock,
